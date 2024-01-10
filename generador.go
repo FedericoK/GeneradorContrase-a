@@ -11,6 +11,7 @@ import (
 
 // Creamos una funcion para generar la contraseña que reciba un numero para el largo como parametro
 // y devuelva un string y error.
+// La funcion empiza con mayuscula para que sea publica a los otros archivos del paquete main.
 func GenerarContra(length int) (string, error) {
 
 	//Se define chars, contiene todos los caracteres que se pueden usar en la contraseña
